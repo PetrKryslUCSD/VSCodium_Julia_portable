@@ -131,15 +131,15 @@ if [ ! -f assets/firsttimedone ] ; then
     if [ ! -d assets/VSCodium/data ] ; then
 	mkdir assets/VSCodium/data
     fi
-    assets/VSCodium/VSCodium --install-extension alefragnani.Bookmarks --force
-    assets/VSCodium/VSCodium --install-extension julialang.language-julia --force
-    assets/VSCodium/VSCodium --install-extension kaiwood.center-editor-window --force
-    #assets/VSCodium/VSCodium --install-extension stkb.rewrap --force
-    assets/VSCodium/VSCodium --install-extension yeannylam.recenter-top-bottom --force
-    assets/VSCodium/VSCodium --install-extension nemesv.copy-file-name --force
-    assets/VSCodium/VSCodium --install-extension PKief.material-icon-theme --force
-    assets/VSCodium/VSCodium --install-extension johnpapa.VSCodium-peacock --force
-    assets/VSCodium/VSCodium --install-extension chunsen.bracket-select --force
+    assets/VSCodium/bin/codium --install-extension alefragnani.Bookmarks --force
+    assets/VSCodium/bin/codium --install-extension julialang.language-julia --force
+    # assets/VSCodium/bin/codium --install-extension kaiwood.vscode-center-editor-window --force
+    # assets/VSCodium/bin/codium --install-extension stkb.rewrap --force
+    # assets/VSCodium/bin/codium --install-extension yeannylam.recenter-top-bottom --force
+    # assets/VSCodium/bin/codium --install-extension nemesv.copy-file-name --force
+    assets/VSCodium/bin/codium --install-extension PKief.material-icon-theme --force
+    # assets/VSCodium/bin/codium --install-extension johnpapa.VSCodium-peacock --force
+    assets/VSCodium/bin/codium --install-extension chunsen.bracket-select --force
     touch assets/firsttimedone
 fi
 
